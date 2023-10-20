@@ -34,9 +34,9 @@ Here:
         {
         while (j >= 0)
         {
-                if (m[j].id[0] == format[loop] && m[j].id[1] == format[loop + 1])
+                if (my_formats[j].id[0] == format[loop] && my_formats[j].id[1] == format[loop + 1])
                 {
-                        printed_chars = printed_chars + m[j].f(args);
+                        printed_chars = printed_chars + my_formats[j].f(args);
                         loop = loop + 2;
                         goto Here;
                 }

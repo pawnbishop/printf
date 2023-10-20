@@ -1,5 +1,7 @@
 #ifndef _MAIN_H
 #define _MAIN_H
+#include <stddef.h>
+#include <stdarg.h>
 
 /**
  * struct format - represents a format function
